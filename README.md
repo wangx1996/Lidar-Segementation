@@ -21,3 +21,5 @@ This file is just a function file, you may need to change a little bit to fit yo
 The output is the same as https://github.com/FloatingObjectSegmentation/CppRBNN
 
 ### Result:
+
+![Image text](https://github.com/WAN96/Lidar-Segementation/blob/master/Screenshot%20from%202020-01-02%2009-54-24.png)
