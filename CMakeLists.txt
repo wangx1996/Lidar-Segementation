@@ -15,8 +15,3 @@ include_directories(${EIGEN3_INCLUDE_DIR} ${PCL_INCLUDE_DIRS} )
 add_executable(main main.cpp CVC_cluster.cpp)
 target_link_libraries(main ${EIGEN3_INCLUDE_DIR} ${PCL_LIBRARIES} ${Boost_INCLUDE_DIRS} ${OpenCV_LIBS})
 
-
-add_executable(test test_cvoxel.cpp CVC_cluster.cpp)
-target_link_libraries(test ${EIGEN3_INCLUDE_DIR} ${PCL_LIBRARIES} ${Boost_INCLUDE_DIRS} ${OpenCV_LIBS})
-
-
