@@ -1,13 +1,16 @@
 # Lidar-Segementation
+
+[![build passing](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/wangx1996/Lidar-Segementation) [![velodyne_HDL_64 compliant](https://img.shields.io/badge/velodyne_HDL_32E-compliant-red.svg)](https://github.com/wangx1996/Lidar-Segementation)
+
 An implementation on "Curved-Voxel Clustering for Accurate Segmentation of 3D LiDAR Point Clouds with Real-Time Performance" from IROS 2019
 
-1.https://datalab.snu.ac.kr/~ukang/papers/cvcIROS19.pdf 
+Paper Link [[link 1](https://datalab.snu.ac.kr/~ukang/papers/cvcIROS19.pdf)][[link 2](https://ieeexplore.ieee.org/document/8968026)]
 
-2.https://ieeexplore.ieee.org/document/8968026
+### Updat on 20210825
+1. Add a demo code
+2. Fix some problem
 
-Part of this code references to the https://github.com/FloatingObjectSegmentation/CppRBNN 
-
-This file is just a function file, you may need to change a little bit to fit your own code
+### This file is just a function file, you may need to change a little bit to fit your own code
 
 ### How to use:
 
@@ -22,6 +25,10 @@ This file is just a function file, you may need to change a little bit to fit yo
      
 The output is the same as https://github.com/FloatingObjectSegmentation/CppRBNN
 
+### Reference
+1. Part of this code references to the https://github.com/FloatingObjectSegmentation/CppRBNN 
+2. Ground Remocve: https://github.com/LimHyungTae/patchwork
+
 ### Result:
 
-![Image text](https://github.com/WAN96/Lidar-Segementation/blob/master/Screenshot%20from%202019-12-27%2014-13-13.png)
+![Image text](https://github.com/wangx1996/Lidar-Segementation/blob/master/img/result.png)
