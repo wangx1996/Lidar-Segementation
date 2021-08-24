@@ -1,6 +1,6 @@
 # Lidar-Segementation
 
-[![build passing](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/wangx1996/Lidar-Segementation) [![velodyne_HDL_64 compliant](https://img.shields.io/badge/velodyne_HDL_32E-compliant-red.svg)](https://github.com/wangx1996/Lidar-Segementation)
+[![build passing](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/wangx1996/Lidar-Segementation) [![velodyne_HDL_64 compliant](https://img.shields.io/badge/velodyne_HDL_64-compliant-red.svg)](https://github.com/wangx1996/Lidar-Segementation)
 
 An implementation on "Curved-Voxel Clustering for Accurate Segmentation of 3D LiDAR Point Clouds with Real-Time Performance" from IROS 2019
 
@@ -24,6 +24,15 @@ Paper Link [[link 1](https://datalab.snu.ac.kr/~ukang/papers/cvcIROS19.pdf)][[li
      
      
 The output is the same as https://github.com/FloatingObjectSegmentation/CppRBNN
+
+
+For the demo code:
+
+     mkdir build
+     cd build
+     cmake ..
+     make -j
+     
 
 ### Reference
 1. Part of this code references to the https://github.com/FloatingObjectSegmentation/CppRBNN 
