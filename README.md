@@ -6,7 +6,7 @@ An implementation on "Curved-Voxel Clustering for Accurate Segmentation of 3D Li
 
 Paper Link [[link 1](https://datalab.snu.ac.kr/~ukang/papers/cvcIROS19.pdf)][[link 2](https://ieeexplore.ieee.org/document/8968026)]
 
-### Updat on 20210825
+### Update on 20210825
 1. Add a demo code
 2. Fix some problem
 
